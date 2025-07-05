@@ -16,4 +16,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: vrushalibavare/flask-app:latest,vrushalibavare/flask-app:${{ github.run_number }}
+          tags: vrushalibavare/flask-app:latest,vrushalibavare/flask-app:${{ github.sha }}
